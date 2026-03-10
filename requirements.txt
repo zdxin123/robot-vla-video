@@ -1,0 +1,10 @@
+numpy
+scipy
+opencv-python
+mediapipe
+torch
+torchvision
+matplotlib
+pyyaml
+tqdm
+h5py
