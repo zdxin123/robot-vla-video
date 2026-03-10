@@ -1,0 +1,24 @@
+project_name: robot-vla-video
+
+data:
+  video_dir: data/raw
+  keypoint_dir: data/keypoints
+  output_dir: outputs
+
+model:
+  input_dim: 99
+  hidden_dim: 256
+  joint_dim: 24
+  seq_len: 64
+
+train:
+  batch_size: 8
+  epochs: 50
+  lr: 0.0001
+
+intent:
+  latent_dim: 128
+
+sim:
+  use_isaac_sim: true
+  robot_name: humanoid_vla
