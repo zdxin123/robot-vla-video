@@ -1,2 +1,2 @@
 # robot-vla-video
-Project on Robot VLA and Human Demonstration Video
+Project on Robot VLA and humanity Demonstration Video
